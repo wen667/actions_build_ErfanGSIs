@@ -14,14 +14,14 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://xiaomi.baishancdnx.cn/xdispatch700adf5b78dc451b/bigota.d.miui.com/V12.0.23.0.QCRMIXM/miui_ANGELICAGlobal_V12.0.23.0.QCRMIXM_1bcde6b5b7_10.0.zip?bsreqid=c9b90f3cdebb9815e18efce52fc9c136&DPhost=xiaomi.baishancdnx.cn
+  ROM_URL: https://easychuan.cn/r/btg8j?t=nf
   ROM_NAME: MIUI
-  BUILD_TYPE: Aonly
+  BUILD_TYPE: ab
   TZ: Asia/Shanghai
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
